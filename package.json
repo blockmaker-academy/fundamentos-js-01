@@ -1,0 +1,11 @@
+{
+  "name": "fundamentos-js-01",
+  "version": "1.0.0",
+  "description": "Ejercicios de Introducción a JS - Variables, tipos de datos y condicionales",
+  "keywords": [
+    "javascript",
+    "web development"
+  ],
+  "author": "Alex Muñoz <https://github.com/alexmf91>",
+  "license": "MIT"
+}
