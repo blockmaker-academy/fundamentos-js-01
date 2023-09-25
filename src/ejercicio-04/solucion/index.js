@@ -1,7 +1,7 @@
 // Ejercicio 4: Condicionales Anidados y Operador Lógico
 
 // 1. Variable `hora`.
-let hora = 15
+const hora = 15
 
 // 2. Condicionales anidados para determinar el momento del día.
 if (hora < 12) {
@@ -18,7 +18,9 @@ function esMayorDeEdad(edad) {
 }
 
 // 4. Condicionales anidados con operador lógico para verificar mayor de edad y estudiante.
-let edadPersona = 20
+const esEstudiante = 20
+const edadPersona = 20
+
 if (esMayorDeEdad(edadPersona) && esEstudiante) {
   console.log('Es mayor de edad y estudiante')
 } else {
@@ -27,12 +29,13 @@ if (esMayorDeEdad(edadPersona) && esEstudiante) {
 
 // 5. Función esVocal.
 function esVocal(letra) {
-  let vocales = 'aeiouAEIOU'
+  const vocales = 'aeiouAEIOU'
   return vocales.includes(letra)
 }
 
 // 6. Utiliza la función esVocal.
-let letraCaracter = 'A'
+const letraCaracter = 'A'
+
 if (esVocal(letraCaracter)) {
   console.log(`${letraCaracter} es una vocal`)
 } else {
