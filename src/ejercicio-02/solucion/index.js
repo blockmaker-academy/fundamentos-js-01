@@ -1,7 +1,7 @@
 // Ejercicio 2: Operadores y Condicionales
 
 // 1. Declara una variable `puntuacion`.
-let puntuacion = 85
+const puntuacion = 85
 
 // 2. Condicional if/else.
 if (puntuacion >= 70) {
@@ -11,7 +11,7 @@ if (puntuacion >= 70) {
 }
 
 // 3. Declara una variable `dia`.
-let dia = 3
+const dia = 3
 
 // 4. Switch para días de la semana.
 switch (dia) {
@@ -46,8 +46,8 @@ function convertirFahrenheit(celsius) {
 }
 
 // 6. Utiliza la función convertirFahrenheit.
-let temperaturaCelsius = 25
-let temperaturaFahrenheit = convertirFahrenheit(temperaturaCelsius)
+const temperaturaCelsius = 25
+const temperaturaFahrenheit = convertirFahrenheit(temperaturaCelsius)
 console.log(`Temperatura en Fahrenheit: ${temperaturaFahrenheit}`)
 
 // 7. Función esPar.
@@ -56,7 +56,7 @@ function esPar(numero) {
 }
 
 // 8. Utiliza la función esPar.
-let numeroPar = 10
+const numeroPar = 10
 if (esPar(numeroPar)) {
   console.log(`${numeroPar} es par`)
 } else {
