@@ -1,7 +1,7 @@
 // Ejercicio 5: Declaración Switch
 
 // 1. Variable `mes`.
-let mes = 7
+const mes = 7
 
 // 2. Switch para estaciones del año.
 switch (mes) {
@@ -45,5 +45,5 @@ function calcularDiasMes(mes) {
 }
 
 // 4. Utiliza la función calcularDiasMes.
-let mesEspecifico = 4
+const mesEspecifico = 4
 console.log(`El mes ${mesEspecifico} tiene ${calcularDiasMes(mesEspecifico)} días.`)
