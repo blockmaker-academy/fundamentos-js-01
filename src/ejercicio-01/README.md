@@ -34,7 +34,7 @@ const edad = 25
 const esEstudiante = true
 
 // 4. Crea una variable `mensaje` que contenga un saludo utilizando las variables `nombre` y `edad`.
-const mensaje = `Hola, mi nombre es ${nombre} y tengo ${edad} años. Soy estudiante: ${esEstudiante}.`
+const mensaje = 'Hola, mi nombre es ' + nombre + ' y tengo ' + edad + ' años. Soy estudiante: ' + esEstudiante + '.'
 
 // 5. Crea una variable `num1` y asígnale un número cualquiera.
 const num1 = 10
@@ -48,13 +48,9 @@ const resta = num1 - num2
 const multiplicacion = num1 * num2
 const division = num1 / num2
 
-// 8. Crea una cadena de texto llamada `frase`.
-const frase = `Hola, mi nombre es ${nombre} y tengo ${edad} años. Soy estudiante: ${esEstudiante}.`
-
 console.log(mensaje)
 console.log('Suma:', suma)
 console.log('Resta:', resta)
 console.log('Multiplicación:', multiplicacion)
 console.log('División:', division)
-console.log(frase)
 ```

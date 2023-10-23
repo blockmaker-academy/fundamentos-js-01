@@ -46,4 +46,4 @@ function calcularDiasMes(mes) {
 
 // 4. Utiliza la función calcularDiasMes.
 const mesEspecifico = 4
-console.log(`El mes ${mesEspecifico} tiene ${calcularDiasMes(mesEspecifico)} días.`)
+console.log('El mes ' + mesEspecifico + 'tiene ' + calcularDiasMes(mesEspecifico) + ' días.')
