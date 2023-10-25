@@ -19,8 +19,6 @@
    - Multiplica `num1` por `num2` y guarda el resultado en una variable llamada `multiplicacion`.
    - Divide `num1` entre `num2` y guarda el resultado en una variable llamada `division`.
 
-8. Crea una cadena de texto llamada `frase` que contenga el siguiente mensaje: "Hola, mi nombre es [nombre] y tengo [edad] años. Soy estudiante: [true/false]."
-
 ```javascript
 // Ejercicio 1: Variables y Tipos de Datos
 
