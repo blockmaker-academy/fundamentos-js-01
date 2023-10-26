@@ -8,11 +8,13 @@
 
 4. Utiliza una estructura `switch` para mostrar en la consola el nombre del día correspondiente al número asignado a `dia`.
 
-5. Declara una variable `temperatura` y asígnale un valor en grados Celsius.
+5. Crea una función llamada `convertirFahrenheit` que tome la `temperatura` en grados Celsius como argumento y devuelva la temperatura equivalente en grados Fahrenheit utilizando la fórmula: `(C × 9/5) + 32`.
 
-6. Crea una función llamada `convertirFahrenheit` que tome la `temperatura` en grados Celsius como argumento y devuelva la temperatura equivalente en grados Fahrenheit utilizando la fórmula: `(C × 9/5) + 32`.
+6. Utiliza la función `convertirFahrenheit` para mostrar la temperatura en grados Fahrenheit en la consola.
 
-7. Utiliza la función `convertirFahrenheit` para mostrar la temperatura en grados Fahrenheit en la consola.
+7. Crea una funcion llamada `esPar` que tome un numero como argumento y devuelva true o false si el numero es par. Puedes utilizar el operador modulo `%` para ver si tiene resto la operación y saber si es par o no.
+
+8. Utiliza la función esPar
 
 ```javascript
 // Ejercicio 2: Operadores y Condicionales
@@ -71,12 +73,11 @@ console.log(`Temperatura en Fahrenheit: ${temperaturaFahrenheit}`)
 function esPar(numero) {
   return numero % 2 === 0
 }
-
 // 8. Utiliza la función esPar.
 const numeroPar = 10
 if (esPar(numeroPar)) {
-  console.log(`${numeroPar} es par`)
+  console.log(numeroPar + ' es par')
 } else {
-  console.log(`${numeroPar} es impar`)
+  console.log(numeroPar + ' es impar')
 }
 ```
