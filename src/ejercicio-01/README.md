@@ -19,8 +19,6 @@
    - Multiplica `num1` por `num2` y guarda el resultado en una variable llamada `multiplicacion`.
    - Divide `num1` entre `num2` y guarda el resultado en una variable llamada `division`.
 
-8. Crea una cadena de texto llamada `frase` que contenga el siguiente mensaje: "Hola, mi nombre es [nombre] y tengo [edad] años. Soy estudiante: [true/false]."
-
 ```javascript
 // Ejercicio 1: Variables y Tipos de Datos
 
@@ -34,7 +32,7 @@ const edad = 25
 const esEstudiante = true
 
 // 4. Crea una variable `mensaje` que contenga un saludo utilizando las variables `nombre` y `edad`.
-const mensaje = `Hola, mi nombre es ${nombre} y tengo ${edad} años. Soy estudiante: ${esEstudiante}.`
+const mensaje = 'Hola, mi nombre es ' + nombre + ' y tengo ' + edad + ' años. Soy estudiante: ' + esEstudiante + '.'
 
 // 5. Crea una variable `num1` y asígnale un número cualquiera.
 const num1 = 10
@@ -48,13 +46,9 @@ const resta = num1 - num2
 const multiplicacion = num1 * num2
 const division = num1 / num2
 
-// 8. Crea una cadena de texto llamada `frase`.
-const frase = `Hola, mi nombre es ${nombre} y tengo ${edad} años. Soy estudiante: ${esEstudiante}.`
-
 console.log(mensaje)
 console.log('Suma:', suma)
 console.log('Resta:', resta)
 console.log('Multiplicación:', multiplicacion)
 console.log('División:', division)
-console.log(frase)
 ```

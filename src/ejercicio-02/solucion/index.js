@@ -48,7 +48,7 @@ function convertirFahrenheit(celsius) {
 // 6. Utiliza la función convertirFahrenheit.
 const temperaturaCelsius = 25
 const temperaturaFahrenheit = convertirFahrenheit(temperaturaCelsius)
-console.log(`Temperatura en Fahrenheit: ${temperaturaFahrenheit}`)
+console.log('Temperatura en Fahrenheit: ' + temperaturaFahrenheit)
 
 // 7. Función esPar.
 function esPar(numero) {
@@ -58,7 +58,7 @@ function esPar(numero) {
 // 8. Utiliza la función esPar.
 const numeroPar = 10
 if (esPar(numeroPar)) {
-  console.log(`${numeroPar} es par`)
+  console.log(numeroPar + ' es par')
 } else {
-  console.log(`${numeroPar} es impar`)
+  console.log(numeroPar + ' es impar')
 }

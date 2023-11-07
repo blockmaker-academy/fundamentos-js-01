@@ -24,4 +24,3 @@ const cadena = 'Hola Mundo'
 // 4. Operador ternario para asignar `longitudCadena`.
 const longitudCadena = cadena.length > 5 ? 'larga' : 'corta'
 console.log('La cadena es ' + longitudCadena)
-```

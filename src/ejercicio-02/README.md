@@ -67,7 +67,7 @@ function convertirFahrenheit(celsius) {
 // 6. Utiliza la función convertirFahrenheit.
 const temperaturaCelsius = 25
 const temperaturaFahrenheit = convertirFahrenheit(temperaturaCelsius)
-console.log(`Temperatura en Fahrenheit: ${temperaturaFahrenheit}`)
+console.log('Temperatura en Fahrenheit: ' + temperaturaFahrenheit)
 
 // 7. Función esPar.
 function esPar(numero) {
